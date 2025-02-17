@@ -1,0 +1,42 @@
+/*!
+ * Форма (Form).
+ *
+ * Расширение "Маршрутизация".
+ * Модуль "Конфигурация".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/**
+ * Правила маршрутизации.
+ */
+.gm-config-url__rule {
+    font-size: 14px;
+    color: #7c7c7c;
+    margin-bottom: 3px;
+}
+.gm-config-url__rule span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #7c7c7c;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 5px;
+}
+.gm-config-url__rule em {
+    display: inline-block;
+    text-align: right;
+    width: 64px;
+    font-style: normal;
+    font-size: 13px;
+    color: #4d82b8;
+    margin-right: 5px;
+}
+.gm-config-url__rule--active .gm-config-url__rule { color: #217346; }
+.gm-config-url__rule--active .gm-config-url__rule span { background-color: #90B9A3; }
